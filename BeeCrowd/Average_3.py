@@ -7,11 +7,17 @@ print(f"Media: {avg:.1f}")
 if avg>=7:
     print("Aluno aprovado.")
 elif avg<5:
-    print("Aluno aprovado.")
+    print("Aluno reprovado.")
 elif avg>=5 and avg<=6.9:
     print("Aluno em exame.")   
     n5=float(input())
     print(f"Nota do exame: {n5:.1f}")
     avg2=(n5+avg)/2
+    if avg>=5:
+        print("Aluno aprovado.")
+    elif avg2<=4.9:
+        print("Aluno aprovado.")
+    print(f"Media final: {avg2:.1f}")  
+    
 
 
