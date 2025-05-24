@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
     n = int(input())
 
-    Tuple1 = (int, input().split())
+    Tuple1 = map(int, input().split())
 
     t = tuple(Tuple1)
 
