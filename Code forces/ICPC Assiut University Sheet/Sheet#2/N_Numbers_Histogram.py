@@ -1,20 +1,8 @@
-# sign=input()
+# Read inputs
+S = input().strip()             # symbol
+N = int(input().strip())        # number count
+numbers = list(map(int, input().split()))
 
-
-
-# # arr=list(map(int,input().split()))
-# # count=int(input())
-
-# for i in range(count):
-#     n=int(input())
-#     print(n*sign)
-    
-    
-s = input()
-count = int(input())
-
-for i in range(count):
-    input_value = int(input())
-    print(s * input_value)
-
-
+# Print repeated symbols
+for x in numbers:
+    print(S * x)
