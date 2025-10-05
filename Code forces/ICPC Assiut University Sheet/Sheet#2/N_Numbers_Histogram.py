@@ -1,8 +1,12 @@
-# Read inputs
-S = input().strip()             # symbol
-N = int(input().strip())        # number count
+
+s = input().strip() 
+n = int(input().strip())       
 numbers = list(map(int, input().split()))
 
-# Print repeated symbols
-for x in numbers:
-    print(S * x)
+for i in numbers:
+    print(s*i)
+    # for j in range(i):
+    #     print(s,end="")
+    # print()    
+    
+    
