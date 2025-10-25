@@ -1,20 +1,12 @@
-# sign=input()
 
+s = input().strip() 
+n = int(input().strip())       
+numbers = list(map(int, input().split()))
 
-
-# # arr=list(map(int,input().split()))
-# # count=int(input())
-
-# for i in range(count):
-#     n=int(input())
-#     print(n*sign)
+for i in numbers:
+    print(s*i)
+    # for j in range(i):
+    #     print(s,end="")
+    # print()    
     
     
-s = input()
-count = int(input())
-
-for i in range(count):
-    input_value = int(input())
-    print(s * input_value)
-
-
