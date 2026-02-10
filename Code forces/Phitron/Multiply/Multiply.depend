@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1696590308 source:d:\phitron\assignment_one\multiply\main.c
+	<stdio.h>
+	<stdlib.h>
+
